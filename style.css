@@ -1,0 +1,93 @@
+
+
+ * {
+    box-sizing: border-box;
+     
+}
+
+
+header {
+    font-family: 'Anton', sans-serif;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-size: auto;
+    background-color:#5fe5f4;
+    
+   
+  }
+
+
+body {
+    background-image: url(images.jpeg);
+    background-size: contain;
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: 'Oswald', sans-serif;
+  line-height:1.5;
+  padding: 4em 1em;
+ 
+  }
+
+
+
+
+.leftcolumn {   
+    float: left;
+    width: 80%;
+      
+}
+
+
+.rightcolumn {
+    float: left;
+    width: 20%;
+    padding-left: 10px;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+     background-color: white;
+     padding: 20px;
+     width: auto;
+
+   }
+
+.rcard {
+     padding-left: 8px;
+     width: auto;
+     box-shadow: 10px 0 10px -7px rgba(0,0,0,.5),-10px 0 10px -7px rgba(0,0,0,.5);
+   }
+  
+.left
+{
+ width: 50%;
+  font-size: auto;
+}
+.right
+{
+  width:50%;
+   font-size: auto;
+}
+p{
+  style="font-family: 'Open Sans Condensed', sans-serif;"
+}
+footer {
+  padding-left: 10px;
+  padding-top: 20px;
+  background-color: #5fe5f4;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
